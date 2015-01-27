@@ -1,3 +1,9 @@
+# Blocks
+tile.tutorialmod:tutorialBlock.name=Tutorial Block
+
+# Items
+item.tutorialmod:tutorialIngot.name=Tutorial Ingot
+
 # Configs
 general=General
 general.ores=Ores

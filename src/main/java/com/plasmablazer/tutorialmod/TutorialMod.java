@@ -1,6 +1,7 @@
 package com.plasmablazer.tutorialmod;
 
 import com.plasmablazer.tutorialmod.handler.*;
+import com.plasmablazer.tutorialmod.init.*;
 import com.plasmablazer.tutorialmod.proxy.*;
 import com.plasmablazer.tutorialmod.reference.*;
 //import com.plasmablazer.tutorialmod.util.*;
@@ -21,6 +22,10 @@ public class TutorialMod
     {
         ConfigHandler.init(e.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigHandler());
+
+        ModBlocks.init();
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
