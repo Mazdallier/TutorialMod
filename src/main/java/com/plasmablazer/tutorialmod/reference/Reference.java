@@ -11,4 +11,6 @@ public class Reference
     public static final String PROXY_CLIENT = "com.plasmablazer.tutorialmod.proxy.ClientProxy";
     public static final String PROXY_SERVER = "com.plasmablazer.tutorialmod.proxy.ServerProxy";
 
+    //Gui Factory
+    public static final String GUI_FACTORY = "com.plasmablazer.tutorialmod.client.gui.GuiFactory";
 }

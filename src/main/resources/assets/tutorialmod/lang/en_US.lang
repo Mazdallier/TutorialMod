@@ -1,0 +1,8 @@
+# Configs
+general=General
+general.ores=Ores
+general.machines=Machines
+config.tutorialmod:general.ores.oreGen.name=Ore Gen
+config.tutorialmod:general.ores.oreGen.comment=Enables/Disables Ore Generation
+config.tutorialmod:general.machines.furnaceSpeed.name=Furnace Speed
+config.tutorialmod:general.machines.furnaceSpeed.comment=Sets the speed of the furnace
