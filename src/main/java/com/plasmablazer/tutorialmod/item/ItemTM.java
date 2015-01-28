@@ -1,5 +1,6 @@
 package com.plasmablazer.tutorialmod.item;
 
+import com.plasmablazer.tutorialmod.init.ModCreativeTabs;
 import com.plasmablazer.tutorialmod.reference.*;
 import cpw.mods.fml.relauncher.*;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -11,7 +12,7 @@ public class ItemTM extends Item
     {
         super();
         this.setUnlocalizedName(name);
-        this.setCreativeTab(null);
+        this.setCreativeTab(ModCreativeTabs.tutorialTab);
         this.setMaxStackSize(64);
     }
 

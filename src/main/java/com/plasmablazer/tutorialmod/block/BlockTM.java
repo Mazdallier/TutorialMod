@@ -1,11 +1,11 @@
 package com.plasmablazer.tutorialmod.block;
 
+import com.plasmablazer.tutorialmod.init.ModCreativeTabs;
 import com.plasmablazer.tutorialmod.reference.*;
 import cpw.mods.fml.relauncher.*;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.*;
-import net.minecraft.item.*;
 
 public class BlockTM extends Block
 {
@@ -19,7 +19,7 @@ public class BlockTM extends Block
         super(material);
         this.setBlockName(name);
         this.setBlockTextureName(name);
-        this.setCreativeTab(null);
+        this.setCreativeTab(ModCreativeTabs.tutorialTab);
     }
 
     @Override

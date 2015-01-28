@@ -5,6 +5,7 @@ import com.plasmablazer.tutorialmod.init.*;
 import com.plasmablazer.tutorialmod.proxy.*;
 import com.plasmablazer.tutorialmod.reference.*;
 //import com.plasmablazer.tutorialmod.util.*;
+import com.plasmablazer.tutorialmod.util.LogHelper;
 import cpw.mods.fml.common.*;
 import cpw.mods.fml.common.event.*;
 
@@ -31,7 +32,8 @@ public class TutorialMod
     @Mod.EventHandler
     public static void init(FMLInitializationEvent e)
     {
-
+        LogHelper.info("Ore Gen: " + Settings.Configs.oreGen[0]);
+        LogHelper.info("Furnace Speed: " + Settings.Configs.furnaceSpeed[0]);
     }
 
     @Mod.EventHandler
