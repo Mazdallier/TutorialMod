@@ -1,0 +1,17 @@
+# Blocks
+tile.tutorialmod:tutorialBlock.name=Block tutoriel
+
+# Items
+item.tutorialmod:tutorialIngot.name=Lingot tutorial
+
+# Configs
+general=Général
+general.ores=Minerais
+general.machines=Machines
+config.tutorialmod:general.ores.oreGen.name=Génération du minerai
+config.tutorialmod:general.ores.oreGen.comment=Active/désactive la génération du minerai
+config.tutorialmod:general.machines.furnaceSpeed.name=Vitesse du four
+config.tutorialmod:general.machines.furnaceSpeed.comment=Met la vitesse du four
+
+# Tabs
+itemGroup.tutorialTab=Onglet tutoriel
